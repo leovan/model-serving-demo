@@ -1,0 +1,15 @@
+# IDEA
+.idea
+
+# VS Code
+.vscode
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.hypothesis/
+.pytest_cache/
+
+# Others
+*.log

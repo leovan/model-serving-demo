@@ -1,0 +1,16 @@
+runtime: python37
+
+handlers:
+  - url: /.*
+    script: main.app
+
+skip_files:
+  - .idea/
+  - .vscode/
+  - __pycache__/
+  - .hypothesis/
+  - .pytest_cache/
+  - bin/
+  - ^(.*/)?.*\.py[cod]$
+  - ^(.*/)?.*\$py\.class$
+  - ^(.*/)?.*\.log$
